@@ -1,0 +1,66 @@
+.container{
+    width: 100%; 
+    height: 600px; 
+    background-color: #f5f5dd;
+    background-image: url(https://3.bp.blogspot.com/-RfrtBCqOYNQ/WjpTfxsju2I/AAAAAAAAtUw/uitlBiCcG9A8--RFWcI9X0FalfRLyoUaQCLcBGAs/s1600/hinh-nen-cuc-dep-cho-may-tinh.jpgg);
+    position: absolute;
+    background-repeat: no-repeat;
+    
+}
+form{
+    width: 800px;
+    height: 310px; 
+    padding: 10px;  
+    line-height: 28px;
+    background-color: #fff; 
+    margin: 120px auto;
+    opacity: 0.7;
+}
+.col-6{
+    float: left;
+    width: 50%;
+}
+.col-4{
+    float: left;
+    width: 30%;
+}
+.col-2{
+    float: left;
+    width: 20%;
+}
+input{
+    height: 22px;
+    border-radius: 3px;
+    border: 1px solid rgb(221, 217, 217);
+}
+.input-email,.input-password,.input-city{
+    width: 95%;
+}
+.input-address{
+    width: 97.5%;
+}
+.input-zip{
+    width: 87%;
+}
+select{
+    width: 95%;
+    height: 24px;
+    border-radius: 3px;
+    border: 1px solid rgb(221, 217, 217);
+}
+.input-checkbox{
+    display: inline-flex;
+}
+/* submit */
+.submit2{
+    color: #fff;
+    text-decoration: none;
+}
+.buttom-submit2{
+    border: 1px solid #0079fa;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: #0079fa;
+    border-radius: 3px;
+}

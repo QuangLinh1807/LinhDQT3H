@@ -1,0 +1,56 @@
+.container_body{
+    width: 100%;
+    height: 600px;
+    background-color: #f5f5dd;
+    /* background-image: url(../Exe_html1/2.jpg); */
+    background-image: url(https://3.bp.blogspot.com/-RfrtBCqOYNQ/WjpTfxsju2I/AAAAAAAAtUw/uitlBiCcG9A8--RFWcI9X0FalfRLyoUaQCLcBGAs/s1600/hinh-nen-cuc-dep-cho-may-tinh.jpgg);
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 800px;
+    height: 310px;
+    margin: 120px auto;
+    opacity: 0.8;
+}
+
+/*header */
+.container_header{
+    height: 70px;
+   background-color: #666;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 200%;
+    color: #ffffff;
+}
+
+/* content */
+.container_content{
+    height: 163px;
+    background-color: #ccc;
+    display: flex;
+}
+.container_content_country{
+    width: 40%;
+    background-color: #ccc;
+    font-size: small;
+    padding-left: 16px;
+    padding-top: 20px;
+}
+.country{
+    display: block;
+}
+.container_content_detail{
+    background-color: #f1f1f1;
+    font-size: x-small;
+    padding: 10px;
+}
+ 
+/* footer */
+.container_footer{
+    background-color: #777;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
