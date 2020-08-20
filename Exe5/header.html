@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Header</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="grid">
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--separate">
+                        <a href="#" class="header__navbar-item--link header__navbar-item--separate">
+                            <i class="fas fa-headphones-alt"></i> Hostline: 0933896686</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item--link header__navbar-item--separate">
+                            <i class="far fa-envelope"></i> Email: info@biznoithat.com</a>
+                    </li>
+                </ul>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="#" class="header__navbar-item--link header__navbar-item--separate">Địa điểm các cửa
+                            hàng
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <i class="far fa-user"></i>
+                        <a href="#" class="header__navbar-item--link">Đăng nhập</a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--strong ">
+                        <i class="fas fa-user-plus"></i>
+                        <a href="#" class="header__navbar-item--link">Đăng ký</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr />
+            <div class="row">
+                <div class="logo__top">
+                    <a href="#"> <img src="./image/icon-logo.png" width="260px" alt="icon-logo"></a>
+                </div>
+                <div class="search__header">
+                    <div class="header_search">
+                        <form class="input-group search-bar" action="/search">
+                            <div class="collection-selecter">
+                                <select class="selecter-search">
+                                    <option value="0" disabled>Chọn danh mục</option>
+                                    <option value="1">Sofa Thư Dãn Thông Minh</option>
+                                    <option value="2">Sofa Gỗ Tự Nhiên</option>
+                                    <option value="3">Sofa Da Italia</option>
+                                    <option value="4">Bảng Giá Kính Cường Lực</option>
+                                    <option value="5">Bàn Ghế Nhà Hàng</option>
+                                    <option value="6">Bàn Ăn Gỗ Nguyên Tấm</option>
+                                    <option value="7">Sofa da bò Malaysia</option>
+                                    <option value="8">Thanh Lý Sản Phẩm</option>
+                                    <option value="9">Sản Phẩm Thanh Lý</option>
+                                    <option value="10">Bàn Ăn Óc Chó</option>
+                                    <option value="11">Sản Phẩm Khuyến Mãi</option>
+                                    <option value="12">Tủ</option>
+                                    <option value="13">Bộ Phòng Ngủ Gỗ Óc Chó</option>
+                                    <option value="14">Thảm</option>
+                                    <option value="15">Gốm Sứ Etaras</option>
+                                    <option value="16">Xích Đu</option>
+                                    <option value="17">Đệm Liên Á</option>
+                                    <option value="18">Tủ Tab Đầu Giường</option>
+                                    <option value="19">Giường Ngủ</option>
+                                    <option value="20">Đang SALE</option>
+                                    <option value="21">Tất Cả</option>
+                                </select>
+                            </div>
+                            <input class="input-search" type="search" placeholder="Tìm kiếm sản phẩm...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-search">Tìm kiếm</button>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+                <div class="header_top_cart">
+                    <div class="top-cart-contain">
+                        <a href="#"><img class="top-cart-contain-icon" src="./image/icon-cart.png" alt="icon-cart"></a>
+                        <img class="top-hotline-contain-icon" src="./image/icon-hotline.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <nav class="header__menu__navbar">
+                <ul class="header__menu__navbar-list">
+                    <li class="header__menu__navbar-item header__menu__navbar-item-category">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+                                <i class="fas fa-align-left" style="padding-right: 10px;"></i> Danh Mục sản phẩm
+                                <span class="caret"></span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="#">Xem thêm >>></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__menu__navbar-item">
+                        <div class="dropdown header__menu__navbar-item--link">
+                            <button class="dropbtn">Trang chủ <i class="fas fa-angle-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="#">Giới thiệu</a>
+                                <a href="#">Sản phẩm</a>
+                                <a href="#">Tin tức</a>
+                                <a href="#">Tuyển dụng</a>
+                                <a href="#">Liên hệ</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__menu__navbar-item">
+                        <div class="dropdown header__menu__navbar-item--link">
+                            <button class="dropbtn">Phòng khách <i class="fas fa-angle-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="#">SOFA>>></a>
+                                <a href="#">Kệ Tivi</a>
+                                <a href="#">Bàn Trà</a>
+                                <a href="#">Tủ Giày</a>
+                                <a href="#">Tủ Trang Trí</a>
+                                <a href="#">Sản Phẩm Đang Sale</a>
+                                <a href="#">Sofa Da Italia</a>
+                                <a href="#">Sofa Da Malaysia</a>
+                                <a href="#">Sofa Gỗ Tự Nhiên</a>
+                                <a href="#">Sofa Xuất Khẩu</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__menu__navbar-item  ">
+                        <div class="dropdown header__menu__navbar-item--link header__menu__navbar-item--strong">
+                            <button class="dropbtn">Phòng ăn <i class="fas fa-angle-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="#">Bàn Ăn</a>
+                                <a href="#">Tủ, Kệ Trang Trí</a>
+                                <a href="#">Sản Phẩm Đang Sale</a>
+                                <a href="#">Bàn Ghế Nhà Hàng</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__menu__navbar-item header__menu__navbar-item--strong ">
+                        <div class="dropdown header__menu__navbar-item--link header__menu__navbar-item--strong">
+                            <button class="dropbtn">Phòng ngủ <i class="fas fa-angle-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="#">Bộ Phòng Ngủ Gỗ Óc Chó</a>
+                                <a href="#">Bộ Phòng Ngủ Ranger</a>
+                                <a href="#">Giường Ngủ</a>
+                                <a href="#">Tủ Tab đầu giường</a>
+                                <a href="#">Tủ Quần Áo</a>
+                                <a href="#">Bàn học, bàn làm việc</a>
+                                <a href="#">Đệm</a>
+                                <a href="#">Sản phẩm đang SALE</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__menu__navbar-item header__menu__navbar-item--strong ">
+                        <a href="#" class="header__menu__navbar-item--link dropbtn">Trang trí</a>
+                    </li>
+                    <li class="header__menu__navbar-item header__menu__navbar-item--strong ">
+                        <a href="#" class="header__menu__navbar-item--link dropbtn">Thanh lý sản phẩm</a>
+                    </li>
+                </ul>
+                <ul class="header__menu__navbar-list">
+                    <li class="header__menu__navbar-support">
+                        <a href="#">Hỗ trợ khách hàng</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
